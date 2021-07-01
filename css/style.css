@@ -23,7 +23,8 @@ background: rgba(255, 255, 255, 0.2); colocar isso no input
 }
 
 body {
-  background: #E5E5E5;
+  background: #F3F5F7;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*here is layout*/
@@ -35,6 +36,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4.56rem;
+  margin-bottom: 6.250rem;
 
 }
 
@@ -112,23 +114,62 @@ body {
   align-items: center;
   flex-direction: column;
 
-  margin: 6rem 16.25rem;
+  /* margin: 6rem 16.25rem; */
+  margin: 3.125rem 16.25rem;
 }
 
 
 .card {
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight:lighter ;
-  padding: 1.4rem;
+  padding: 1.37rem 1.5rem;
   width: 100%;
-  background: var(--white);
+  background: #FFFFFF;
   box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
 
 }
 
 
 .card header {
+  /* margin: 1.37rem 1.5rem; */
+  margin-bottom: 1.37rem;
+  font-style: normal;
+  font-size: 16px;
+  color: #B6B6B6;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.card h2 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color:  #B6B6B6;
+  text-align: justify;
+}
+
+
+@media (max-width: 900px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 3rem 1.25rem;
+    margin: 0;
+  }
+
+  .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+
+
+    
+  }
 }
