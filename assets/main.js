@@ -5,7 +5,7 @@ const sr = ScrollReveal({
   reset: true
 });
 
-alert('hello world');
+
 ScrollReveal().reveal('.container', { delay: 200 });
 ScrollReveal().reveal('.data', { delay: 400 });
 ScrollReveal().reveal('.title', { delay: 500 });
