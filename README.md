@@ -2,4 +2,4 @@
 projeto desafio da comunidade Codelândia
 
 
-https://lacmoreira.github.io/codelandia-desafio1/
+https://lusomoreira.github.io/codelandia-desafio1/
